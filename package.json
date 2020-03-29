@@ -16,7 +16,6 @@
     "**/*.js": [
       "yarn format",
       "yarn lint",
-      "jest --bail --findRelatedTests",
       "git add"
     ]
   },

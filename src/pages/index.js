@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Layout from 'src/components/Layout'
 
-const Home = () => {
+const Index = () => {
   return (
     <>
       <Head>
@@ -15,4 +15,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Index
