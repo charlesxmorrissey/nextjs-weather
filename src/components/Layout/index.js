@@ -15,7 +15,9 @@ const Layout = () => {
   const dispatch = useDispatch()
   const isLoading = useSelector(selectWeatherLoading())
   const weatherData = useSelector(selectWeatherData())
+
   const { icon, summary, temperature } = weatherData
+
   const bgStyle = {
     backgroundColor: BACKGROUND_COLOR_MAP[icon] || BACKGROUND_COLOR_MAP.default,
   }
